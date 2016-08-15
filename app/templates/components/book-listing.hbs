@@ -1,0 +1,10 @@
+<div class="col s6 m4 13">
+{{#md-card class="medium" titleClass="indigo-text" title=book.title image=book.image activator=true }}
+   {{#md-card-content}}
+     <h6>{{book.author}} ({{book.year}})</h6>
+   {{/md-card-content}}
+   {{#md-card-reveal}}
+     {{book.blurb}}
+   {{/md-card-reveal}}
+ {{/md-card}}
+</div>
